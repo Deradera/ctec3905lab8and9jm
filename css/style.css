@@ -56,7 +56,7 @@ li:hover {
   background-color: #E6CC84;
 }
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1500px){
   li {
     width: 225px;
   }
