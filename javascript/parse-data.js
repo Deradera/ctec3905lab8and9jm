@@ -17,7 +17,7 @@
   let theData = "";
   // create a loop around this line with "for ... in" (look it up)_
 for (i in obj.lecturers) {
-  theData += `<li><img src="images/pusheen.gif" alt="${obj.lecturers[i].firstName}> ${obj.lecturers[i].lastName}"${obj.lecturers[i].firstName} ${obj.lecturers[i].lastName}</li>`;
+  theData += `<li><img src="images/pusheen.gif" alt="${obj.lecturers[i].firstName} ${obj.lecturers[i].lastName}">${obj.lecturers[i].firstName} ${obj.lecturers[i].lastName}</li>`;
 }
   // end the for loop here
 
