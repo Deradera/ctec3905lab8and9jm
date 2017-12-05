@@ -1,0 +1,40 @@
+body {
+  background-color: #F9F3E2;
+}
+#demo {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  /*background-color: #CCA357;*/
+}
+
+img {
+  margin-top: 0.3em;
+  height: 200px;
+  width: 200px;
+
+  border-radius: 100px;
+}
+
+li {
+  padding: 5px;
+  width: 270px;
+  height: 350px;
+  margin: 10px 10px 5px 0px;
+  border-radius: 25px;
+
+  background-color: #CCA357;
+
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #E6CC84;
+}
